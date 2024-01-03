@@ -1,0 +1,40 @@
+
+/* Align Content Özelliği */
+
+
+
+.container{
+    display: flex;
+    height: 500px;
+    background-color: #034f84;
+    flex-wrap: wrap;
+    /* gap: 20px; Hem yatayda hem dikeyde boşluk bırakmak için kullanılır Margine alternatiftir. */
+    /* row-gap: 20px; Satırlar arasında boşluk bırakmaya yarar.*/
+    /* column-gap: 20px; Kolonlar arasında boşluk bırakmaya yarar.*/
+    gap: 20px;
+
+    /* align-content: center; Elemanların hepsi yükseklik içerisinde tam oraya gelir. */
+    /* align-content: flex-start; Elemanların hepsi en yukarı gelir. */
+    /* align-content: flex-end; Elemanların hepsi en aşağı gelir. */
+    /* align-content: space-around; Ortadan 2 birim  kenarlardan 1 birim olacak şekilde hizalanır. */
+    /* align-content: space-between; Elemanlar kenarlara yapışır, kalan boşluk ortada bırakılır.  */
+    /* align-content: space-evenly; Heryerden bırakılan boşluklar eşitlenir. */
+}
+
+.item{
+    background-color: #f7786b;
+    padding: 30px; 
+   margin: 20px;
+    color: #fff;
+    font-size: 25px;
+   
+}
+
+
+/* GAP Özelliği */
+
+/* Hem yatayda hem dikeyde boşluk bırakmak için kullanılır. Margine alternatiftir. */
+
+/* gap: 20px; Hem yatayda hem dikeyde boşluk bırakmak için kullanılır Margine alternatiftir. */
+/* row-gap: 20px; Satırlar arasında boşluk bırakmaya yarar.*/
+/* column-gap: 20px; Kolonlar arasında boşluk bırakmaya yarar.*/

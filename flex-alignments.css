@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: #034f84;
+    padding: 15px;
+   
+    display: flex;    
+    flex-direction: column;
+    /* justify-content Özelliği */
+
+    /* justify-content: center; // Ortalama yapmak için kullanılır. */
+    /* justify-content: flex-start; // Default değer, Elemanları satırın başında konumlandırır. */
+    /* justify-content: flex-end; // Elemanları satırın sonunda konumlandırır. */
+    /* justify-content: space-around; // Elemanları x 2x 2x 2x x şeklinde konumlandırır. */
+    /* justify-content: space-between; // Baştaki ve sondaki elamanı iki kenara yaslar, diğer elemanlar arasında eşit boşluk bırakır. */
+    /* justify-content: space-evenly;  // Bütün elemanlar ve iki kenar arasında eşit boşluk bırakır.  */
+
+    /* align-items Özelliği  */
+
+    /* align-items: flex-start; // Elemanlar içerik kadar yer kaplar, en başta konumlanırlar. */
+    /* align-items: flex-end; // Elemanlar içerik kadar yer kaplar, en sonda konumlanırlar. */
+    /* align-items: center; // Elemanlar içerik kadar yer kaplar, ve dikeyde ortalanır. */
+       
+}
+
+.item{
+    background-color: #f7786b;
+    color: #fff;
+    font-size: 25px;
+    margin: 20px;
+    padding: 30px;
+}

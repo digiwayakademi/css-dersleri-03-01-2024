@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: #034f84; 
+    display: flex;    
+    height: 500px;
+    
+       
+}
+
+.item{
+    background-color: #f7786b;
+    color: #fff;
+    font-size: 25px;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* align-self Özelliği */
+
+/* Kapsayıcı elemanda değil, Itemlarda kullanılan bir özelliktir. */
+
+/* align-self: flex-start; // Elemanın sütunun başında Konumlandırmasına yarar */
+/* align-self: center // Elemanın sütunda ortalanmasını sağlar. */
+/* align-self: flex-end // Elemanın sutünun sonunda konumlandırılmasına yarar. */
+
+
+
+/* flex-grow Özelliği
+
+Büyüklük ayarı yapmaya yarayan özelliktir. */
+
+/* Default değeri 0' dır. flex-grow özelliğine 1 verdiğimiz eleman, diğerlerinden kalan bütün alanı kaplar.
+
+Eğer, flex-grow özelliği 1 olan birden fazla eleman varsa diğerlerinden kalan alanların toplamını eşit olarak
+bölüşürler */
+
+/* flex-grow 'a 1 den başka değer verilebilmesi için en az 2 elemanın flex grow özelliğinin aktif olması lazımdır. */
+/* flex-grow özelliğinin büyüklüğü kalan alanın nasıl paylaştırılacağını belirler. */
+
+
+
+/* flex-basis Özelliği */
+
+/* Itemlara Sabit bir genişlik vermemize yarar. Önce flex-basis özelliğiyle sabit genişlik verilen item değerini alır.
+Kalan genişlik miktarı ona göre diğer katsayılara paylaştırılır. */
+
+
+/* flex-shrink Özelliği */
+
+/* flex-basis özelliğinde verdiğimiz genişlik değeri tarayıcı küçüldüğünde yer kalmadığı takdirde küçülür.
+Ancak flex-shrink: 0; özelliğini verdiğimiz eleman tarayıcı küçülsede verdiğimiz değerde kalmaya devam eder.
+Default değeri flex-shrink:1 'dir. Eğer özelliği aktif etmek istersek flex-shrink:0 olarak kullanabiliriz. */
+
+
+
+/* flex kullanımı
+
+flex-grow, flex-shrink,flex-basis özelliğini tek satırda yazmamıza yarar.
+
+Örn: flex: 2 0 300px; */
+
+
+/* flex özelliğiyle itemlara yüzde değer vererek istediğim kadar alan kaplamalarını sağlayabilirim.container
+
+örn: flex: 25% */
+
+
+
+/* Order Özelliği */
+
+/* Order özelliğiyle istediğimiz elemanı istediğimiz sırada gösterebiliriz. */
+
+
+.item1{
+    order: 1;  
+}
+
+.item2{
+   order: 2;
+}
+
+.item3{
+  order: 3;  
+}
+
+.item4{
+   order: -2;
+}

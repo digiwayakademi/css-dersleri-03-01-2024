@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: #034f84;
+    padding: 15px;
+    display: flex;
+    /* flex-direction: row;  Default değer  */
+    /* flex-direction: column; Elemanlar display block özelliğindeki gibi satırı olduğu gibi kaplar ve alt alta sıralanır. */
+    /* flex-direction: row-reverse ; Elemanlar tersten sıralanır ve sağa dayalı olcak şekilde sıralanırlar. */
+     /* flex-direction: column-reverse; Elemanlar en sondaki en başa gelecek şekilde tersten sıralanır. */    
+     
+     /* flex-wrap: nowrap; // Default değer */
+     /* flex-wrap: wrap; Responsive özellik kazandırır. Tarayıcı küçüldüğünde ekrana sığmayan elemanlar alt satıra geçer */
+        /* flex-wrap: wrap-reverse; Tarayıcı küçüldüğünde Sıralamayı Tersten yapmamızı sağlar. */
+        flex-wrap: wrap-reverse;
+}
+
+.item{
+    background-color: #f7786b;
+    color: #fff;
+    font-size: 25px;
+    margin: 20px;
+    padding: 30px;
+}
